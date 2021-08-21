@@ -37,7 +37,7 @@ jobs:
           command: |
             kubectl config use-context ${KUBERNETES_CLUSTER_NAME}
             kubectl set image deployments/${APP_NAME} \
-              ${APP_NAME}=gcr.io/${GOOGLE_PROJECT_ID}/${PROJECT_NAME}_${APP_NAME}:${CIRCLE_SHA1}
+              datazooidu-demo-bank-landing-sha256-1=gcr.io/${GOOGLE_PROJECT_ID}/${PROJECT_NAME}_${APP_NAME}:${CIRCLE_SHA1}
 workflows:
   test_and_build:
     jobs:
