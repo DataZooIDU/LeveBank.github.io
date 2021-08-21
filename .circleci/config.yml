@@ -32,12 +32,12 @@ jobs:
             docker tag ${PROJECT_NAME} gcr.io/${GOOGLE_PROJECT_ID}/${PROJECT_NAME}_${APP_NAME}:${CIRCLE_SHA1}
             gcloud auth print-access-token | docker login -u oauth2accesstoken --password-stdin https://gcr.io
             docker push gcr.io/${GOOGLE_PROJECT_ID}/${PROJECT_NAME}_${APP_NAME}:${CIRCLE_SHA1}
-#      - run:
-#          name: Update GKE container images
-#          command: |
-#            kubectl config use-context ${KUBERNETES_CLUSTER_NAME}
-#            kubectl set image deployments/idux-api-deployment \
-#              datazooidu-idux=gcr.io/${GOOGLE_PROJECT_ID}/${PROJECT_NAME}_idux:${CIRCLE_SHA1}
+      - run:
+          name: Update GKE container images
+          command: |
+            kubectl config use-context ${KUBERNETES_CLUSTER_NAME}
+           kubectl set image deployments/${APP_NAME} \
+              ${APP_NAME}=gcr.io/${GOOGLE_PROJECT_ID}/${PROJECT_NAME}_${APP_NAME}:${CIRCLE_SHA1}
 workflows:
   test_and_build:
     jobs:
