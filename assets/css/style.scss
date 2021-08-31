@@ -250,7 +250,7 @@ Preloader Area CSS
         left: 0;
         border-radius: 50px;
     }
-    .shadow { 
+    .shadow {
         width: 100%;
         height: 15px;
         background: $white-color;
@@ -310,8 +310,8 @@ Top Header Area CSS
 
     &.bg-color {
         .top-header-information {
-        
-            li {   
+
+            li {
                 i {
                     color: $main-color-two;
                 }
@@ -328,7 +328,7 @@ Top Header Area CSS
                     color: $main-color-two;
                 }
                 a {
-        
+
                     &:hover {
                         color: $main-color-two;
                     }
@@ -339,7 +339,7 @@ Top Header Area CSS
                 .nice-select {
                     &:hover {
                         color: $main-color-two;
-        
+
                         &:after {
                             border-bottom: 2px solid $main-color-two;
                             border-right: 2px solid $main-color-two;
@@ -351,8 +351,8 @@ Top Header Area CSS
     }
     &.bg-ffffff {
         .top-header-information {
-        
-            li {   
+
+            li {
                 i {
                     color: $main-color-three;
                 }
@@ -369,7 +369,7 @@ Top Header Area CSS
                     color: $main-color-three;
                 }
                 a {
-        
+
                     &:hover {
                         color: $main-color-three;
                     }
@@ -380,7 +380,7 @@ Top Header Area CSS
                 .nice-select {
                     &:hover {
                         color: $main-color-three;
-        
+
                         &:after {
                             border-bottom: 2px solid $main-color-three;
                             border-right: 2px solid $main-color-three;
@@ -505,7 +505,7 @@ Top Header Area CSS
                 padding: 10px 15px 10px 15px;
                 color: $black-color;
                 display: block;
-                
+
                 &:hover, &.focus, &.selected.focus {
                     background-color: $white-color;
                 }
@@ -591,7 +591,7 @@ Navbar Area CSS
 
                     li {
                         margin: 0;
-                        
+
                         a {
                             padding: 10px 20px;
                             position: relative;
@@ -618,11 +618,11 @@ Navbar Area CSS
                             left: auto;
                             margin-top: 15px;
                             visibility: hidden;
-                            
+
                             li {
                                 a {
                                     color: $black-color;
-                                    
+
                                     &:hover, &:focus, &.active {
                                         color: $main-color;
                                     }
@@ -632,11 +632,11 @@ Navbar Area CSS
                                     opacity: 0;
                                     left: 300px;
                                     visibility: hidden;
-        
+
                                     li {
                                         a {
                                             color: $black-color;
-        
+
                                             &:hover, &:focus, &.active {
                                                 color: $main-color;
                                             }
@@ -646,11 +646,11 @@ Navbar Area CSS
                                             opacity: 0;
                                             left: -300px;
                                             visibility: hidden;
-                
+
                                             li {
                                                 a {
                                                     color: $black-color;
-                
+
                                                     &:hover, &:focus, &.active {
                                                         color: $main-color;
                                                     }
@@ -660,11 +660,11 @@ Navbar Area CSS
                                                     opacity: 0;
                                                     left: 300px;
                                                     visibility: hidden;
-                        
+
                                                     li {
                                                         a {
                                                             color: $black-color;
-                
+
                                                             &:hover, &:focus, &.active {
                                                                 color: $main-color;
                                                             }
@@ -674,11 +674,11 @@ Navbar Area CSS
                                                             opacity: 0;
                                                             left: -300px;
                                                             visibility: hidden;
-                                
+
                                                             li {
                                                                 a {
                                                                     color: $black-color;
-                
+
                                                                     &:hover, &:focus, &.active {
                                                                         color: $main-color;
                                                                     }
@@ -688,11 +688,11 @@ Navbar Area CSS
                                                                     opacity: 0;
                                                                     left: 300px;
                                                                     visibility: hidden;
-                                        
+
                                                                     li {
                                                                         a {
                                                                             color: $black-color;
-                
+
                                                                             &:hover, &:focus, &.active {
                                                                                 color: $main-color;
                                                                             }
@@ -814,7 +814,7 @@ Navbar Area CSS
                         padding-left: 0;
                         padding-right: 0;
                         padding-top: 0;
-                        
+
                         &::placeholder {
                             color: $paragraph-color;
                             transition: $transition;
@@ -858,7 +858,7 @@ Navbar Area CSS
                 .nav-item {
                     a {
                         color: $black-color;
-                        
+
                         &:hover, &:focus, &.active {
                             color: $main-color-two;
                         }
@@ -882,57 +882,57 @@ Navbar Area CSS
                                 li {
                                     a {
                                         color: $black-color;
-                                        
+
                                         &:hover, &:focus, &.active {
                                             color: $main-color-two;
                                         }
                                     }
                                     .dropdown-menu {
-            
+
                                         li {
                                             a {
                                                 color: $black-color;
-            
+
                                                 &:hover, &:focus, &.active {
                                                     color: $main-color-two;
                                                 }
                                             }
                                             .dropdown-menu {
-                    
+
                                                 li {
                                                     a {
                                                         color: $black-color;
-                    
+
                                                         &:hover, &:focus, &.active {
                                                             color: $main-color-two;
                                                         }
                                                     }
                                                     .dropdown-menu {
-                            
+
                                                         li {
                                                             a {
                                                                 color: $black-color;
-                    
+
                                                                 &:hover, &:focus, &.active {
                                                                     color: $main-color-two;
                                                                 }
                                                             }
                                                             .dropdown-menu {
-                                    
+
                                                                 li {
                                                                     a {
                                                                         color: $black-color;
-                    
+
                                                                         &:hover, &:focus, &.active {
                                                                             color: $main-color-two;
                                                                         }
                                                                     }
                                                                     .dropdown-menu {
-                                            
+
                                                                         li {
                                                                             a {
                                                                                 color: $black-color;
-                    
+
                                                                                 &:hover, &:focus, &.active {
                                                                                     color: $main-color-two;
                                                                                 }
@@ -965,7 +965,7 @@ Navbar Area CSS
                             color: $main-color-two;
                         }
                     }
-    
+
                     .default-btn {
                         background-color: $main-color-two;
                     }
@@ -981,7 +981,7 @@ Navbar Area CSS
                 .nav-item {
                     a {
                         color: $black-color;
-                        
+
                         &:hover, &:focus, &.active {
                             color: $main-color-three;
                         }
@@ -1005,57 +1005,57 @@ Navbar Area CSS
                                 li {
                                     a {
                                         color: $black-color;
-                                        
+
                                         &:hover, &:focus, &.active {
                                             color: $main-color-three;
                                         }
                                     }
                                     .dropdown-menu {
-            
+
                                         li {
                                             a {
                                                 color: $black-color;
-            
+
                                                 &:hover, &:focus, &.active {
                                                     color: $main-color-three;
                                                 }
                                             }
                                             .dropdown-menu {
-                    
+
                                                 li {
                                                     a {
                                                         color: $black-color;
-                    
+
                                                         &:hover, &:focus, &.active {
                                                             color: $main-color-three;
                                                         }
                                                     }
                                                     .dropdown-menu {
-                            
+
                                                         li {
                                                             a {
                                                                 color: $black-color;
-                    
+
                                                                 &:hover, &:focus, &.active {
                                                                     color: $main-color-three;
                                                                 }
                                                             }
                                                             .dropdown-menu {
-                                    
+
                                                                 li {
                                                                     a {
                                                                         color: $black-color;
-                    
+
                                                                         &:hover, &:focus, &.active {
                                                                             color: $main-color-three;
                                                                         }
                                                                     }
                                                                     .dropdown-menu {
-                                            
+
                                                                         li {
                                                                             a {
                                                                                 color: $black-color;
-                    
+
                                                                                 &:hover, &:focus, &.active {
                                                                                     color: $main-color-three;
                                                                                 }
@@ -1088,7 +1088,7 @@ Navbar Area CSS
                             color: $main-color-three;
                         }
                     }
-    
+
                     .default-btn {
                         background-color: $main-color-three;
                     }
@@ -1159,7 +1159,7 @@ Navbar Area CSS
             z-index: 2;
             padding-left: 15px;
             padding-right: 15px;
-            
+
             &.active {
                 opacity: 1;
                 visibility: visible;
@@ -1195,7 +1195,7 @@ Navbar Area CSS
                         padding-left: 0;
                         padding-right: 0;
                         padding-top: 0;
-                        
+
                         &::placeholder {
                             color: $paragraph-color;
                             transition: $transition;
@@ -1246,7 +1246,7 @@ Navbar Area CSS
                             color: $main-color-two;
                         }
                     }
-    
+
                     .default-btn {
                         background-color: $main-color-two;
                     }
@@ -1268,7 +1268,7 @@ Navbar Area CSS
                             color: $main-color-three;
                         }
                     }
-    
+
                     .default-btn {
                         background-color: $main-color-three;
                     }
@@ -1281,7 +1281,7 @@ Navbar Area CSS
 // Mobile and iPad Navbar
 @media only screen and (max-width: 1199px) {
     .main-responsive-nav {
-        display: block; 
+        display: block;
         .main-responsive-menu {
             position: relative;
             &.mean-container {
@@ -1511,7 +1511,7 @@ Main Banner Area CSS
     .content {
         margin-bottom: 30px;
         text-align: center;
-        
+
         h3 {
             font-size: 32px;
             padding-bottom: 20px;
@@ -1573,7 +1573,7 @@ Main Banner Area CSS
                 color: $black-color;
                 padding-left: 20px;
                 padding-right: 20px;
-                
+
                 &:hover {
                     background-color: $main-color-two !important;
                     color: $white-color;
@@ -1826,7 +1826,7 @@ Fun Facts Area CSS
             h3 {
                 color: $main-color-three;
                 margin-top: 0;
-        
+
                 &::before {
                     display: none;
                 }
@@ -1854,7 +1854,7 @@ Fun Facts Area CSS
             h3 {
                 color: $main-color;
                 margin-top: 0;
-        
+
                 &::before {
                     display: none;
                 }
@@ -1959,7 +1959,7 @@ Protect Area CSS
         p {
             margin-bottom: 0;
         }
-        
+
         &:hover {
             .number {
                 span {
@@ -2172,7 +2172,7 @@ Services Area CSS
                     visibility: visible;
                     left: -20px;
                     transition: $transition;
-    
+
                     &.owl-next {
                         left: auto;
                         right: -20px;
@@ -2218,7 +2218,7 @@ Credit Card Area CSS
         list-style-type: none;
         margin-bottom: 0;
         margin-top: 15px;
-        
+
         li {
             flex: 0 0 50%;
             max-width: 50%;
@@ -2321,7 +2321,7 @@ Below Area CSS
         p {
             margin-bottom: 0;
         }
-        
+
         &:hover {
             .number {
                 span {
@@ -2451,7 +2451,7 @@ Customer Area CSS
                     visibility: visible;
                     left: -20px;
                     transition: $transition;
-    
+
                     &.owl-next {
                         left: auto;
                         right: -20px;
@@ -2785,7 +2785,7 @@ About Area CSS
 
     &.bg-ffffff {
         border-bottom: 1px solid transparent;
-        
+
         .about-content {
             padding: 50px 100px;
 
@@ -3041,7 +3041,7 @@ Goals Area CSS
         p {
             margin-bottom: 0;
         }
-        
+
         &:hover {
             .number {
                 span {
@@ -3094,7 +3094,7 @@ Team Area CSS
             }
             &:hover {
                 .team-content {
-                    background-color: $main-color; 
+                    background-color: $main-color;
 
                     .social {
                         li {
@@ -3109,7 +3109,7 @@ Team Area CSS
                     }
                 }
             }
-        }        
+        }
     }
 }
 .single-team-box {
@@ -3189,10 +3189,10 @@ Team Area CSS
                 }
             }
             h3 {
-               color: $white-color; 
+               color: $white-color;
             }
             span {
-                color: $white-color; 
+                color: $white-color;
             }
         }
     }
@@ -3338,7 +3338,7 @@ Grow Area CSS
         p {
             margin-bottom: 0;
         }
-        
+
         &:hover {
             .number {
                 span {
@@ -3492,7 +3492,7 @@ Consultants Area CSS
         p {
             margin-bottom: 0;
         }
-        
+
         &:hover {
             .number {
                 span {
@@ -3579,7 +3579,7 @@ Main Slider Area CSS
                     visibility: visible;
                     left: 20px;
                     transition: $transition;
-    
+
                     &.owl-next {
                         left: auto;
                         right: 20px;
@@ -3719,7 +3719,7 @@ Page Banner CSS
         background-image: url(../../assets/img/page-banner/page-banner-3.jpg);
     }
     &.item-bg3 {
-        background-image: url(../../assets/img/page-banner/page-banner-4.jpg);
+        background-image: url(../../assets/img/page-banner/page-banner-4.png);
     }
     &.item-bg4 {
         background-image: url(../../assets/img/page-banner/page-banner-5.jpg);
@@ -3868,7 +3868,7 @@ Pricing Area CSS
 .tab {
     .tabs_item {
         display: none;
-        
+
         &:first-child {
             display: block;
         }
@@ -4019,7 +4019,7 @@ Using Card Area CSS
         p {
             margin-bottom: 0;
         }
-        
+
         &:hover {
             .number {
                 span {
@@ -4049,7 +4049,7 @@ Services Details Area CSS
     .services-details-features {
         margin-top: 30px;
         margin-bottom: 30px;
-        
+
         .features-content {
             h5 {
                 font-size: 25px;
@@ -4072,7 +4072,7 @@ Services Details Area CSS
                 padding-left: 25px;
                 font-weight: 500;
                 font-size: $font-size;
-    
+
                 i {
                     color: $optional-color;
                     position: absolute;
@@ -4115,7 +4115,7 @@ Services Details Area CSS
                 padding-left: 25px;
                 font-weight: 500;
                 font-size: $font-size;
-    
+
                 i {
                     color: $optional-color;
                     position: absolute;
@@ -4146,7 +4146,7 @@ Services Details Area CSS
             margin-bottom: 0;
             display: flex;
             flex-wrap: wrap;
-            
+
             li {
                 position: relative;
                 color: $black-color;
@@ -4181,7 +4181,7 @@ Services Details Area CSS
                 display: block;
                 background: #f3f3f3;
                 margin-bottom: 10px;
-    
+
                 &:last-child {
                     margin-bottom: 0;
                 }
@@ -4219,7 +4219,7 @@ Services Details Area CSS
                 padding: 18px 20px;
                 border-top: 1px solid $optional-color;
                 color: $paragraph-color;
-    
+
                 &.show {
                     display: block;
                 }
@@ -4311,7 +4311,7 @@ Services Details Area CSS
             padding-left: 0;
             margin-bottom: 0;
             list-style-type: none;
-    
+
             li {
                 margin-bottom: 20px;
                 border-bottom: 1px solid #eeeeee;
@@ -4399,7 +4399,7 @@ Sign In Area CSS
             width: 2px;
             content: '';
             height: 40px;
-            background-color: $main-color;       
+            background-color: $main-color;
         }
     }
     form {
@@ -4512,7 +4512,7 @@ Register Area CSS
             width: 2px;
             content: '';
             height: 40px;
-            background-color: $main-color;       
+            background-color: $main-color;
         }
     }
     form {
@@ -4564,7 +4564,7 @@ Register Area CSS
             padding-top: 5px;
             font-weight: 600;
             margin-bottom: 20px;
-    
+
             &:focus {
                 background-color: transparent;
             }
@@ -4576,13 +4576,13 @@ Register Area CSS
                 width: 100%;
                 padding-top: 10px;
                 padding-bottom: 10px;
-    
+
                 .option {
                     transition: .6s;
                     color: $black-color;
                     padding-left: 20px;
                     padding-right: 20px;
-                    
+
                     &:hover {
                         background-color: $main-color !important;
                         color: $white-color;
@@ -4661,7 +4661,7 @@ Contact Area CSS
             box-shadow: none;
             padding: 0 15px;
             transition: $transition;
-            
+
             &:focus {
                 outline: 0;
                 background-color: transparent;
@@ -4823,7 +4823,7 @@ Contact Info Area CSS
     p {
         max-width: 520px;
         margin: 0 auto 25px;
-    } 
+    }
 }
 
 /*================================================
@@ -4850,7 +4850,7 @@ Privacy Area CSS
         font-size: 25px;
         margin: 0 0 16px 0;
         font-weight: 600;
-    }    
+    }
     ol, ul {
         margin-top: 10px;
         margin-bottom: 20px;
@@ -4878,7 +4878,7 @@ Projects Area CSS
         overflow: hidden;
         img {
             transition: $transition;
-        }   
+        }
     }
     .projects-content {
         position: relative;
@@ -5069,7 +5069,7 @@ Blog Details Area CSS
                         font-size: $font-size;
                         font-weight: 500;
                         color: $paragraph-color;
-            
+
                         &:hover {
                             color: $main-color;
                         }
@@ -5087,7 +5087,7 @@ Blog Details Area CSS
             list-style-type: none;
             margin-top: 20px;
             margin-bottom: 30px;
-            
+
             li {
                 margin-bottom: 16px;
                 position: relative;
@@ -5182,7 +5182,7 @@ Blog Details Area CSS
                         border-radius: 50%;
                         background-color: #eeeef0;
                         text-align: center;
-        
+
                         &:hover {
                             color: $white-color;
                             background-color: $optional-color;
@@ -5281,7 +5281,7 @@ blockquote, .blockquote {
             width: 2px;
             content: '';
             height: 30px;
-            background-color: $main-color;       
+            background-color: $main-color;
         }
     }
     ol, ul {
@@ -5368,7 +5368,7 @@ blockquote, .blockquote {
                 width: 2px;
                 content: '';
                 height: 30px;
-                background-color: $main-color;       
+                background-color: $main-color;
             }
         }
         .comment-form {
@@ -5431,7 +5431,7 @@ blockquote, .blockquote {
             position: relative;
             padding-left: 20px;
             margin-bottom: 20px;
-            
+
             input {
                 position: absolute;
                 left: 0;
@@ -5490,7 +5490,7 @@ Widget Sidebar CSS
                 width: 2px;
                 content: '';
                 height: 25px;
-                background-color: $main-color;       
+                background-color: $main-color;
             }
         }
     }
@@ -5749,7 +5749,7 @@ Widget Sidebar CSS
                 right: 0;
                 width: 100%;
                 margin-top: 10px;
-        
+
                 &:hover {
                     background-color: $optional-color;
                 }
@@ -5858,7 +5858,7 @@ Open Account Area CSS
             padding-top: 5px;
             font-weight: 400;
             margin-bottom: 20px;
-    
+
             &:focus {
                 background-color: transparent;
             }
@@ -5870,13 +5870,13 @@ Open Account Area CSS
                 width: 100%;
                 padding-top: 10px;
                 padding-bottom: 10px;
-    
+
                 .option {
                     transition: .6s;
                     color: $black-color;
                     padding-left: 20px;
                     padding-right: 20px;
-                    
+
                     &:hover {
                         background-color: $main-color !important;
                         color: $white-color;
@@ -5993,7 +5993,7 @@ Advice Area CSS
         p {
             margin-bottom: 0;
         }
-        
+
         &:hover {
             .number {
                 span {
@@ -6019,7 +6019,7 @@ Online Area CSS
     max-width: 600px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+
     h3 {
         font-size: 36px;
         margin-bottom: 20px;
@@ -6055,7 +6055,7 @@ Online Area CSS
         p {
             margin-bottom: 0;
         }
-        
+
         &:hover {
             .number {
                 span {
@@ -6165,7 +6165,7 @@ Types Loan Area CSS
         p {
             margin-bottom: 0;
         }
-        
+
         &:hover {
             .number {
                 span {
@@ -6191,7 +6191,7 @@ Apply Area CSS
     max-width: 600px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+
     h3 {
         font-size: 36px;
         margin-bottom: 0;
@@ -6227,7 +6227,7 @@ Apply Area CSS
         p {
             margin-bottom: 0;
         }
-        
+
         &:hover {
             .number {
                 span {
@@ -6343,7 +6343,7 @@ Loan Form Area CSS
             padding-top: 5px;
             font-weight: 400;
             margin-bottom: 20px;
-    
+
             &:focus {
                 background-color: transparent;
             }
@@ -6355,13 +6355,13 @@ Loan Form Area CSS
                 width: 100%;
                 padding-top: 10px;
                 padding-bottom: 10px;
-    
+
                 .option {
                     transition: .6s;
                     color: $black-color;
                     padding-left: 20px;
                     padding-right: 20px;
-                    
+
                     &:hover {
                         background-color: $main-color !important;
                         color: $white-color;
@@ -6517,7 +6517,7 @@ Table Area CSS
             color: $black-color;
             font-weight: 600;
             font-size: $font-size;
-        }    
+        }
     }
 }
 .table-bordered {
@@ -6562,7 +6562,7 @@ Footer Area CSS
                     li {
                         a {
                             i {
-        
+
                                 &:hover {
                                     background-color: $main-color-two;
                                     border: 1px solid $main-color-two;
@@ -6601,7 +6601,7 @@ Footer Area CSS
             }
         }
     }
-    
+
     &.bg-ffffff {
         background-color: $white-color;
 
