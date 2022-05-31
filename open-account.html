@@ -760,7 +760,7 @@
 			
 function StartVerification()
 {
-	var referenceId ="ReferenceId-"+Math.random();
+	var referenceId ="ReferenceId-"+ Math.floor(Math.random() * 100000000);
 	return CreateTransaction(referenceId);
 }
 
