@@ -474,7 +474,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <button type="button" onclick="CreateTransaction()"  class="default-btn">
+                                            <button type="button" onclick="StartVerification()"  class="default-btn">
 											Click to verify
 											</button>
                                         </div>
@@ -757,6 +757,13 @@
 		}
     return (false)
 }
+			
+function StartVerification()
+{
+	var referenceId ="ReferenceId-"+Math.random();
+	return CreateTransaction(referenceId);
+}
+
 		</script>
     </body>
 </html>
